@@ -1,0 +1,13 @@
+FEEDBACK EX2								VANSHAJ TAXALI
+									MTR NR.4558621
+General Feedback
+Exercise was basic and again yet very tricky at some points I really have to work on some logics although some questions were unclear
+I did them according to my understanding but made the code such that it can also work other way around if required
+just some commenting and uncommenting is required.
+
+SPECIFIC FEEDBACK
+Q 1d) it was unclear that if we need to turn on or off the green and red led while we turn on the blue one so I turned it off
+Q 1f) I turned the red led on directly by function Red_led(); which is in comments due to interrupts weather to uncomment while interrupt 
+was ok or not?? anyhow it wont work with the interrupt any way
+Q 1g) it was not clear as to what exactly should interrupt function do so we read the PB5 with polling PB6 in the if condition and thus defining
+the function in such a way that it behaves like the Red_led(); function.

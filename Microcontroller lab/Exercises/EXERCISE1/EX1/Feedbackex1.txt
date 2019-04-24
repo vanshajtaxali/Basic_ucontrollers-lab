@@ -1,0 +1,8 @@
+FeedbackExercise 1
+1) Trying to find a more efficient program to blink multilple LED's at the same time with different frequency.
+2) couldnot fully understand part 3 of task1. Although tried to complete it to best of my knowledge but doesnt know 
+how to know current state on a output pin.
+3)the exercise is good it seems basic but its not that easy as it seems.
+4) There is some problem with my board as well as I
+ cannot upload any code in my controller even if it is build correctly and 
+unable to reset the microcontroller externally so need help on that part.

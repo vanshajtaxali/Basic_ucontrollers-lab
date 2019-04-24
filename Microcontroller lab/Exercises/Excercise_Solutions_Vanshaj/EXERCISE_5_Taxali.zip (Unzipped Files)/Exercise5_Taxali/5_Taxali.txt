@@ -1,0 +1,62 @@
+******************************
+* Exercise sheet 5           *
+******************************
+
+Student: Taxali, Vanshaj
+Tutor: Christian Heim <christian.heim89@gmx.de>
+
+Grading: 5.5 / 10.0 points
+
+******************************
+
+Task 1
+a)
+  [x] correct PWM implementation	(1.0/1.0 pt.)
+  [x] 1st melody					(0,75/1.0 pt.)
+  [x] 2nd melody					(0,75/1.0 pt.)
+  [x] melodies stored in array		(1.0/1.0 pt.)
+b)
+  [x] checking PB5 by interrupt		(1.0/1.0 pt.)
+  [x] starting melody 1				(0.0/0.5 pt.)
+  [x] starting melody 2				(0.0/0.5 pt.)
+c)
+  [ ] knocking detection			(0.0/2.0 pts.)
+d)
+  [ ] pausing the melody by PB6		(0.0/1.0 pt.)
+
+Task 2
+  [x] feedback.txt					(1.0/1.0 pt.)
+
+Comments:
+
+-------------------------------------------------------------------------------
+Colloquium:
+Please come on 14.12.17, 12-13 to room 106-03-12. You do not need to bring
+anything.
+-------------------------------------------------------------------------------
+a) 
+--> Hints:
+    --> To stop timer and save energy you should use TA0CTL = .. | MC_0;
+    --> Dividing by 2 is better done with x>>1
+--> No pause between molodies
+    --> You don't stop PWM signal.
+	    --> Use TA0CTL = .. | MC_0; after a melody is played to stop timer
+-------------------------------------------------------------------------------
+b)
+--> Interrupt for PB5 not disabled while playing (-0.5 pt.)
+    --> Disable: P1IE &= ~BIT3;
+	--> Enable:P1IE |= BIT3; 
+	
+--> Melodies are played infinitely (-0.5 pt.)
+    --> After PB5 is pressed once or twice within 1 second, a molody should
+	    played once.
+	--> To stop PWM signal use TA0CTL = .. | MC_0;
+-------------------------------------------------------------------------------
+c) & d) not implemented (-3 pts) 
+--> To use the buzzer as a sensor:
+    --> Reconfigure pin 3.6 as GPIO input with pull-up or pull-down restistor
+	--> Read P3IN out with polling
+-------------------------------------------------------------------------------
+Feedback:
+--> I will show you a sample solution at the colloquium.
+-------------------------------------------------------------------------------

@@ -1,0 +1,38 @@
+******************************
+* Exercise sheet 2           *
+******************************
+
+Student: Taxali, Vanshaj
+Tutor: Christian Heim <christian.heim89@gmx.de>
+
+Grading: 9.5 / 10.0 points
+
+******************************
+
+Task 1
+  b) [x] PB5 / red LED                (2.0/2.0 pts.)
+  c) [x] PB6 / green LED              (1.0/1.0 pt.)
+  d) [x] blue LED                     (2.0/2.0 pts.)
+  e) [x] yellow LED                   (1.0/1.0 pt.)
+  f) [x] code for red LED in function (1.0/1.0 pt.)
+  g) [x] interrupt                    (1.5/2.0 pts.)
+
+Task 2
+     [x] feedback.txt                 (1.0/1.0 pt.)
+
+Comments:
+
+-------------------------------------------------------------------------------
+g) Sometimes, if I release BP5, then the red LED blinks. (-0.5 pt.)
+   --> This is because of the not-debounced button, which triggers several
+       interrupts.
+       --> You could use a short delay before you ask the "state" of PB5
+	       from P1IN. 
+		   
+           # pragma vector = PORT1_VECTOR
+           __interrupt void Port_1(void) {
+             __delay_cycles(...);
+             if ((P1IN & BIT3) == 0) {
+                P1OUT |= RED_LED;
+				...
+-------------------------------------------------------------------------------

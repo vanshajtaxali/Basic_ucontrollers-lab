@@ -1,0 +1,7 @@
+***********************Feedback Exercise 7**************************
+Vanshaj Taxali
+4558621
+
+1)The exercise was tricky and required a lot of understanding of the circuits and clocks
+2)The difficulty level was very high and found it very difficult at some points but nonetheless sufficient time was given.
+3)Cannot implement task f and reseting the led

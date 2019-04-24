@@ -1,0 +1,18 @@
+Exercise_9_Gupta
+
+Microcontroller Techniques Laboratory
+Feedback for Exercise-9
+By: Vanshaj Taxali
+    4558621
+
+This exercise I did it together with Mr. SHANTAM GUPTA, from group 2.
+
+Master Mind Game Project
+
+We are able to successfully run the master mind game on one board. It took a lot of time to understand about random number generation, setting only one LED from D1 to D4, and synchronize all the tasks together. 
+We did not had time to understand and try communication between two boards. Maybe if we had more time for the project, we could run the game perfectly with two boards.
+Although at some point my compiler behaved absurdly as it could not compile the code stating memory issue or ram issue while the same code was compiled on my friends PC and would like to get an explanation as to why that happens. 
+
+Overall, I learnt a lot from this labcourse and hope to apply this knowledge in the future projects.
+
+Thanks

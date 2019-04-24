@@ -1,0 +1,9 @@
+*************Feedback Exercise 5**************
+Vanshaj Taxali
+4558621
+
+1)I felt this exercise very difficult as there are a lot of problems in understnaing the question itself
+2)Couldnot understand how to implement piezo as a sensor
+3)could not implement pause
+4)One suggestion is that please share a video of the demonstrationof the implementation of the exercise where you dont share the code 
+instead just demonstrate how exactly the exercise code should work on the board.

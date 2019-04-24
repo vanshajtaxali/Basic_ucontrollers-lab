@@ -1,0 +1,40 @@
+******************************
+* Exercise sheet 1           *
+******************************
+
+Student: Taxali, Vanshaj
+Tutor: Christian Heim <christian.heim89@gmx.de>
+
+Grading: 10.0 / 10.0 points
+
+******************************
+
+Task 1
+  a) [x] using P1.4                  (1.0/1.0 pt.)
+     [x] blinks correctly	     	 (1.0/1.0 pt.)
+     [x] with 2 Hertz                (1.0/1.0 pt.)
+  b) [x] using P1.5                  (1.0/1.0 pt.)
+     [x] half of the blinking freq.  (1.0/1.0 pt.)
+     [x] description for X10         (1.0/1.0 pt.)
+  c) [x] serialAvailable/serialRead  (1.0/1.0 pt.)
+     [x] serialFlush/serialRead      (1.0/1.0 pt.)
+     [x] returning the state	     (1.0/1.0 pt.)
+
+Task 2
+     [x] feedback.txt                (1.0/1.0 pt.)
+
+Comments:
+
+-------------------------------------------------------------------------------
+General: 
+--> Please write your name in the first line of your files.
+--> Naming convention for project file: ExerciseXX_Surname
+-------------------------------------------------------------------------------
+Feedback: 
+--> To get the status of an output-GPIO-pin you should read the P1OUT 
+    register out. Each bit in the register represents a predefined pin.
+	--> To get the status from P1.5 you can use (P1OUT & BIT5).
+	
+--> Are there any other MCU-suitcases in the library? Fist try to change the 
+    board. Please contact me if the problem persists.
+-------------------------------------------------------------------------------
